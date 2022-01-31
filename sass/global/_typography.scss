@@ -1,0 +1,56 @@
+html {
+  font-family: 'Verdana', sans-serif;
+}
+
+// FONT SIZES
+$font-size-display: 5.6rem; // 42pt light | Modal Titles
+$font-size-header: 4.5333rem; // 34pt bold | Page Titles
+$font-size-title-1: 3.7333rem; // 28pt medium | Tabs, Titles, Forms
+$font-size-title-2: 2.9333rem; // 22pt medium |  Buttons, Tabs, titles,forms
+$font-size-headline: 2.6666rem; // 20pt regular | info paragraphs
+$font-size-body: 1.8666rem; // 13pt or 14pt regular | Station Descriptions
+$font-size-caption: 1.6rem; // 12pt regular | time stamps, footers
+
+// FONT WEIGHTS
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// FONT CLASSES
+.font-display {
+  font-size: $font-size-display;
+  font-weight: $font-weight-light;
+}
+
+.font-header {
+  font-size: $font-size-header;
+  font-weight: $font-weight-bold;
+}
+
+.font-title-1 {
+  font-size: $font-size-title-1;
+  font-weight: $font-weight-medium;
+}
+
+.font-title-2 {
+  font-size: $font-size-title-2;
+  font-weight: $font-weight-medium;
+}
+
+.font-headline {
+  font-size: $font-size-headline;
+  font-weight: $font-weight-regular;
+}
+
+.font-body {
+  font-size: $font-size-body;
+  font-weight: $font-weight-regular;
+  line-height: 1.5;
+}
+
+.font-caption {
+  font-size: $font-size-caption;
+  font-weight: $font-weight-regular;
+  line-height: 1.5;
+}

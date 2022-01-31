@@ -1,0 +1,86 @@
+.footer {
+  flex: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10rem;
+
+  padding: 5rem 10rem;
+
+  background-color: $color-home-hero-background;
+
+  &__container {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    min-height: 9rem;
+  }
+
+  &__heading {
+    font-size: 1.8rem;
+    color: #335576;
+
+    margin-bottom: 3rem;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #db7a4e;
+
+    margin-bottom: 1.5rem;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    color: #335576;
+  }
+
+  &__hours-box {
+    display: flex;
+    column-gap: 2rem;
+  }
+
+  &__socials-box {
+    display: flex;
+    column-gap: 3rem;
+  }
+
+  &__icon {
+    height: 2.5rem;
+
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .footer {
+    align-items: center;
+    flex-direction: column;
+    row-gap: 6rem;
+
+    padding: 4rem;
+
+    &__heading {
+      text-align: center;
+    }
+
+    &__hours-box {
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer {
+    align-items: center;
+
+    padding: 4rem 0;
+  }
+}

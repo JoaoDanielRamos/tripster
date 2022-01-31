@@ -1,0 +1,68 @@
+.recommendations {
+  padding: 4rem 10rem;
+
+  &__heading {
+    font-size: 2.5rem;
+    color: $color-home-hero-slogan;
+
+    margin-bottom: 4rem;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+  }
+
+  &__card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    min-width: 25rem;
+    height: 40rem;
+    padding: 3rem;
+    // border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: $color-destinations-background;
+
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+
+  .hawaii {
+    background: url('../../../assets/Images/hawaii.jpg');
+  }
+
+  .iceland {
+    background: url('../../../assets/Images/iceland.jpg');
+  }
+
+  .greece {
+    background: url('../../../assets/Images/greece.jpg');
+  }
+
+  .hawaii,
+  .iceland,
+  .greece {
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .recommendations {
+    &__container {
+      flex-direction: column;
+      row-gap: 3rem;
+    }
+  }
+}

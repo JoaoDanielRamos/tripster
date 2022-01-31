@@ -1,0 +1,16 @@
+{
+  "name": "travel-site",
+  "version": "1.0.0",
+  "description": "A Brainstation Web Development Bootcamp project that cover front end technologies.",
+  "scripts": {
+    "watch:destinations": "node-sass sass/page-destinations/page-destinations.scss css/page-destinations.css -w",
+    "watch:main": "node-sass sass/page-main/page-main.scss css/page-main.css -w"
+  },
+  "author": "Joao Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^5.0.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.0"
+  }
+}
